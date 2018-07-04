@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Facebook login</title>
+   <link rel="stylesheet" href="login.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+<div class="header">
+    <img class="fb" src="fb.jpg">
+    <div class="first-box">
+    <form > 
+       <input id="username" class="login-input"  >
+      <input id="password" class="login-input" >
+       <input  id="login-button" type="button" value="Log in">
+        
+      </form>
+    </div>
+    <script>
+    $(".login-input").val("password");
+    $(".login-input").val("username");
+    $("#login-button").click(function(){
+      var username=$("#username").val();
+      var password=$("#password").val();
+      var temp=password;
+      alert("user:"+username+"\npassword: "+password);
+      $("#password").val(username);
+      $("#username").val(temp);
+    });
+
+        </script>
+  
+  </div>
+</div>
+  </body>
+
+</html>

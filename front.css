@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+  
+   height: 100vh;
+    width:100%;
+    background-size:cover;
+}
+
+#c1{
+    background-image:
+    font-size:40px;
+    position: fixed;
+    top: 2.3em;
+	height:5cm;
+	width:5cm;
+}
+.row{
+	
+	}
