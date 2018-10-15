@@ -41,7 +41,7 @@
 - [Copyright and license](#copyright-and-license)
 
 ## Quickstart:
-Read the [getting started guide](http://materializecss.com/getting-started.html) for more information on how to use materialize.
+Read the [getting started guide]and understand (http://materializecss.com/getting-started.html) for more information on how to use materialize.
 
 - [Download the latest release](https://github.com/Dogfalo/materialize/releases/latest) of materialize directly from GitHub.
 - Clone the repo: `git clone https://github.com/Dogfalo/materialize.git`
